@@ -11,6 +11,7 @@
     --WHITE: #FFF;
     --CORNFLOWER: rgba(231, 233, 252, 1);
     --CLOUD: #F4F4FD;
+    --GREY: rgba(46, 47, 66, 0.7);
 }
 
 .container {
@@ -161,7 +162,10 @@ nav .navbar-text {
 
 .hero {
     padding: 188px 472px;
-    background: var(--NAVY-BLUE);
+    background-color: var(--NAVY-BLUE);
+    background-image: linear-gradient(to bottom, var(--GREY), var(--GREY)),url("../images/people-office 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
 }
 
